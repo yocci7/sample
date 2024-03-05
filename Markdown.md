@@ -97,7 +97,10 @@
 ---
 
 ### 引用
-> "このテキストは、HTMLのblockquote要素に囲まれます。  blockquote要素はreflowableです。テキストを好きなように  改行することができます。改行したとしても、  変換後はひとつのblockquote要素として扱われます。"
+> "このテキストは、HTMLのblockquote要素に囲まれます。  
+> blockquote要素はreflowableです。テキストを好きなように  
+> 改行することができます。改行したとしても、  
+> 変換後はひとつのblockquote要素として扱われます。"
 > 
 ```
 > "このテキストは、HTMLのblockquote要素に囲まれます。  
