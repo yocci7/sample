@@ -1,0 +1,116 @@
+@use '../../var' as *;
+
+body {
+  font-weight: 700;
+  font-size: clamp(0.75rem, 0.636rem + 0.48vw, 1rem);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a,
+  span {
+    transition: all 0.5s ease;
+  }
+}
+
+header {
+  font-weight: 700;
+  font-size: clamp(0.75rem, 0.636rem + 0.48vw, 1rem);
+}
+
+#home {
+  #title {
+    font-weight: 700;
+    font-size: clamp(2rem, 1.091rem + 3.88vw, 4rem);
+  }
+
+  #charLink {
+    font-weight: 700;
+    font-size: clamp(1.125rem, 0.955rem + 0.73vw, 1.5rem);
+  }
+
+  .description {
+    &__title {
+      font-weight: 500;
+      font-size: clamp(1.5rem, 0.818rem + 2.91vw, 3rem);
+    }
+    &__text {
+      font-weight: 400;
+      font-size: clamp(0.875rem, 0.818rem + 0.24vw, 1rem);
+      line-height: 28px;
+    }
+  }
+}
+
+#char {
+  #sidebar {
+    font-weight: 400;
+    font-size: clamp(1rem, 0.909rem + 0.45vw, 1.25rem);
+
+    &__rarity {
+      font-size: 12px;
+    }
+
+    details {
+      font-size: clamp(1.25rem, 1.159rem + 0.45vw, 1.5rem);
+
+      & p {
+        font-size: clamp(1rem, 0.955rem + 0.23vw, 1.125rem);
+      }
+    }
+  }
+
+  #charData {
+    font-weight: 600;
+
+    &__card {
+      &__number {
+        font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+      }
+
+      &__name {
+        &__mainName {
+          font-size: clamp(0.875rem, 0.83rem + 0.23vw, 1rem);
+        }
+
+        &__subName {
+          font-size: clamp(0.625rem, 0.58rem + 0.23vw, 0.75rem);
+        }
+      }
+    }
+  }
+}
+
+#er {
+  &__main {
+    &__statusArea {
+      &__status {
+        &__code {
+          font-weight: 700;
+          font-size: clamp(2rem, 1.273rem + 3.64vw, 4rem);
+        }
+        &__text {
+          font-weight: 500;
+          font-size: clamp(1rem, 0.636rem + 1.82vw, 2rem);
+        }
+      }
+      &__description {
+        font-size: clamp(0.875rem, 0.784rem + 0.45vw, 1.125rem);
+        line-height: 29px;
+      }
+    }
+    &__topLink {
+      font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+    }
+  }
+}
+
+.loading {
+  &__text {
+    font-size: 18px;
+  }
+}
