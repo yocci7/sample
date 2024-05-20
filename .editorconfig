@@ -1,18 +1,15 @@
 root = true
 
 [*]
-indent_style = space            # インデントにはスペースを使用
-indent_size = 2                 # インデントのサイズは2スペース
-end_of_line = lf                # 行末にはLF（Unixスタイル）を使用
-charset = utf-8                 # 文字セットはUTF-8
-trim_trailing_whitespace = true # 行末の空白は削除
-insert_final_newline = true     # ファイルの最後に改行を挿入
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
 
 [*.md]
-trim_trailing_whitespace = false #Markdownファイルでは行末の空白を削除しない
+trim_trailing_whitespace = false
 
 [*.json]
-indent_size = 4 #JSONファイルではインデントサイズを4にする
+indent_size = 4
 
 [*.py]
-indent_size = 4 #Pythonファイルではインデントサイズを4にする
+indent_size = 4
