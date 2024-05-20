@@ -1,15 +1,8 @@
 //color
-$primary: #d9d9d9;
-$secondary: #444;
-$primarybg: #404040;
-$primarylink: #53dccd;
-$red: #dc0c0c;
-
-$STR: #fa8072;
-$DEX: #90ee90;
-$QCK: #87cefa;
-$PSY: #ffd700;
-$INT: #da70d6;
+$primary: #???;
+$secondary: #???;
+$primarybg: #???;
+$primarylink: #???;
 
 body {
   background: $primarybg;
@@ -35,11 +28,11 @@ a {
 
 // breakpoint
 $breakpoints: (
-  "sm": "screen and (min-width: 640px)",
-  "md": "screen and (min-width: 768px)",
-  "lg": "screen and (min-width: 1024px)",
-  "xl": "screen and (min-width: 1280px)",
-  "xxl": "screen and (min-width: 1536px)",
+  'sm': 'screen and (min-width: 640px)',
+  'md': 'screen and (min-width: 768px)',
+  'lg': 'screen and (min-width: 1024px)',
+  'xl': 'screen and (min-width: 1280px)',
+  'xxl': 'screen and (min-width: 1536px)',
 ) !default;
 @mixin mq($breakpoint) {
   @media #{map-get($breakpoints, $breakpoint)} {

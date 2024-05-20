@@ -2,26 +2,22 @@
 @use './fonts/fonts';
 @use '../var' as *;
 
-html {
+html,
+body {
   overflow: hidden;
 }
 
 body {
-  overflow: hidden;
   width: 100%;
   height: 100vh;
-  // transition: all .3s;
   display: grid;
   grid-template:
-    ' header ' 54px
+    ' header '
     '  main  ' 1fr
-    ' footer ' 100px
+    ' footer '
     / 100%;
-  /* IE, Edge 対応 */
   -ms-overflow-style: none;
-  /* Firefox 対応 */
   scrollbar-width: none;
-  /* Chrome, Safari 対応 */
   &::-webkit-scrollbar {
     display: none;
   }
@@ -33,12 +29,6 @@ body {
 
 #main {
   grid-area: main;
-  // transform-origin: top center;
-  // animation: loading 1s;
-  // @keyframes loading {
-  //   0% {opacity: 0;transform: scale(0.95);}
-  //   100% {opacity: 1;transform: scale(1);}
-  // }
 }
 
 #footer {
